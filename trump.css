@@ -1,0 +1,29 @@
+.trump-widget{
+	position: relative;
+	min-height: 300px;
+}
+
+.trump-widget>img{
+	position: absolute;
+	width: 100px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.trump-widget .content {
+    width: calc(100% - 120px);
+    background: #ededed;
+    position: absolute;
+    right: 12px;
+    top: 40px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.trump-widget .content p{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+.trump-widget .content center{
+	margin: 0px;
+	margin-bottom: 15px;
+}
